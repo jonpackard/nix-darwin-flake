@@ -15,5 +15,6 @@
     pkgs.tmux
     pkgs.fortune
     pkgs.neofetch
+    pkgs.tree
   ];
 }

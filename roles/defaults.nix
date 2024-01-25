@@ -31,11 +31,13 @@
       static-only = true;
       mru-spaces = false;
       # show-recents = false;
+      show-recents = true;
     };
     finder = {
       AppleShowAllExtensions = true;
       FXEnableExtensionChangeWarning = false;
       # CreateDesktop = false; # disable desktop icons
+      CreateDesktop = true; # enable desktop icons
     };
     trackpad = {
       Clicking = true;
@@ -64,7 +66,7 @@
       NSAutomaticSpellingCorrectionEnabled = false;
       NSNavPanelExpandedStateForSaveMode = true;
       NSNavPanelExpandedStateForSaveMode2 = true;
-      _HIHideMenuBar = true; # autohide top panel
+      # _HIHideMenuBar = true; # autohide top panel
     };
   };
    # Add flake support 
