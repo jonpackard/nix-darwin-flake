@@ -20,25 +20,25 @@
       cask_args appdir: "~/Applications"
     '';
     taps = [
-      "homebrew/cask"
-      "homebrew/cask-drivers"
+      #"homebrew/cask"
+      #"homebrew/cask-drivers"
       "homebrew/cask-fonts"
       "homebrew/cask-versions"
-      "homebrew/core"
+      #"homebrew/core"
       "homebrew/services"
     ];
     casks = [
       "caffeine"
       "discord"
-      "firefox"
+      #"firefox"
       "zoom"
     ];
     masApps = {
-      DaisyDisk = 411643860;
-      Vimari = 1480933944;
-      "WiFi Explorer" = 494803304;
-      "Reeder 5." = 1529448980;
-      "Okta Extension App" = 1439967473;
+#      DaisyDisk = 411643860;
+#      Vimari = 1480933944;
+#      "WiFi Explorer" = 494803304;
+#      "Reeder 5." = 1529448980;
+#      "Okta Extension App" = 1439967473;
     };
   };
 }

@@ -2,8 +2,8 @@
 { config, pkgs, lib, home-manager, nur, ... }:
 
 let
-  hostname = "nix-mac-mini";
-  username = "heywoodlh";
+  hostname = "Jonathans-MacBook-Pro";
+  username = "jonathan";
 in {
   imports = [
     ../roles/defaults.nix
