@@ -17,7 +17,7 @@
   #system-defaults.nix
   system.keyboard = {
     enableKeyMapping = true;
-    remapCapsLockToControl = true;
+    # remapCapsLockToControl = true;
   };
   system.defaults = {
     dock = {
@@ -30,12 +30,12 @@
       tilesize = 48;
       static-only = true;
       mru-spaces = false;
-      show-recents = false;
+      # show-recents = false;
     };
     finder = {
       AppleShowAllExtensions = true;
       FXEnableExtensionChangeWarning = false;
-      CreateDesktop = false; # disable desktop icons
+      # CreateDesktop = false; # disable desktop icons
     };
     trackpad = {
       Clicking = true;

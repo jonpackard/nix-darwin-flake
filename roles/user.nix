@@ -13,5 +13,7 @@
     pkgs.git
     pkgs.gnupg
     pkgs.tmux
+    pkgs.fortune
+    pkgs.neofetch
   ];
 }

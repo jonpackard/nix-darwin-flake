@@ -30,7 +30,7 @@
     casks = [
       "caffeine"
       "discord"
-      #"firefox"
+      "firefox"
       "zoom"
     ];
     masApps = {
