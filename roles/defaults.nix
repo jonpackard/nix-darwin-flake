@@ -28,7 +28,7 @@
       launchanim = true;
       show-process-indicators = true;
       tilesize = 48;
-      static-only = true;
+      static-only = false;
       mru-spaces = false;
       # show-recents = false;
       show-recents = true;

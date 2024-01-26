@@ -15,6 +15,8 @@
       "m-cli"
       "mas"
       "zsh"
+      "wakeonlan"
+      "nmap"
     ];
     extraConfig = ''
       cask_args appdir: "~/Applications"
@@ -31,6 +33,10 @@
       "caffeine"
       "discord"
       "firefox"
+      "zoom"
+      "qbittorrent"
+      "virtualbox"
+      "bitwarden"
       "zoom"
     ];
     masApps = {
