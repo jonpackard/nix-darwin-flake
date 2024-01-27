@@ -33,11 +33,13 @@
       "caffeine"
       "discord"
       "firefox"
+      "multifirefox"
       "zoom"
       "qbittorrent"
       "virtualbox"
       "bitwarden"
       "zoom"
+      "vlc"
     ];
     masApps = {
 #      DaisyDisk = 411643860;
